@@ -11,7 +11,7 @@ import Linkedin from 'public/linkedin.png'
 
 export default function Home() {
   return (
-    <div className="w-screen h-screen">
+    <div className="w-full h-screen">
         <Header/>
         <About/>
         <Education/>
