@@ -9,16 +9,7 @@ const About = () => {
     <div className="text-white bg-red-500 h-1/5 flex flex-row justify-between ">
       <div className="justify-start w-1/2">
         <p className="font-sans m-5">
-          Hello, I'm Bhavya Shah, a passionate and driven engineer with a
-          diverse skill set and a love for problem-solving. I'm currently
-          pursuing a Bachelor of Engineering in Mechatronics at McMaster
-          University, where I maintain a strong academic record with a GPA of
-          3.9. My journey in the world of technology and innovation has been
-          nothing short of exhilarating, and I'm excited to share my experiences
-          with you. One of my newly discovered passions is front-end web development
-          and I have created this website as a sample for you. Mechanical engineering 
-          is the absolute worst stream and I hope all mech profs rm -rf life. This is
-          the most responsive website... I know
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum mollitia tempore aperiam nam porro earum laudantium. Saepe quaerat laudantium iste tempore. Distinctio rem explicabo, ut cupiditate eligendi quam aliquam ullam ab ea. Corrupti aperiam adipisci quod, sed incidunt laboriosam officiis reiciendis sit nisi repellat sapiente qui maiores hic repudiandae voluptatum. Voluptatem odio, beatae excepturi impedit perspiciatis, explicabo inventore eveniet totam illum architecto fugit reprehenderit distinctio?
         </p>
       </div>
       <div className="w-1/2 flex flex-row">
