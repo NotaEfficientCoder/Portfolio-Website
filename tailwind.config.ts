@@ -13,8 +13,35 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        transparent: 'transparent',
+        current: 'currentColor',
+        'white': '#ffffff',
+        'purple': '#3f3cbb',
+        'midnight': '#121063',
+        'metal': '#565584',
+        'tahiti': '#3ab7bf',
+        'silver': '#ecebff',
+        'bubble-gum': '#ff77e9',
+        'bermuda': '#78dcca',
+        'warm':'#e27d60',
+        'custom-black':'#1a1a1d',
+        'custom-gray':'#4e4e50',
+        'custom-maroon':'#6f2232',
+        'custom-magenta':'#950740',
+        'custom-dark-red':'#c3073f',
+
+      },
+      fontFamily: {
+        cedarville: ["Cedarville", "sans-serif"],
+        greatvibe: ["Greatvibe", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
+      },
+
     },
   },
   plugins: [],
 }
+
+
 export default config

@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -28,6 +28,20 @@ body {
 }
 
 
+@font-face {
+  font-family: "Cedarville";
+  src: url("/font/CedarvilleCursive-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Greatvibe";
+  src: url("/font/GreatVibes-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/font/Poppins-Light.ttf");
+}
 
 
 
