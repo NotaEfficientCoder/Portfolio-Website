@@ -8,8 +8,8 @@ const Header = () => {
   return (
     <div className="w-full">
       <header className="w-full p-2 h-[90px] flex flex-row items-center justify-between bg-custom-dark-red">
-        <h1 className="font-greatvibe ml-2 text-5xl font-bold italic">
-          Bhavya Shah
+        <h1 className="font-greatvibe ml-9 text-5xl font-semibold">
+          Bhavya  Shah
         </h1>
         <div className="w-1/2 mr-3 h-full flex  items-center justify-end gap-6 ">
           <a
