@@ -33,7 +33,6 @@ const config: Config = {
 
       },
       fontFamily: {
-        cedarville: ["Cedarville", "sans-serif"],
         greatvibe: ["Greatvibe", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
       },

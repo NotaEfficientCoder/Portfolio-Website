@@ -12,7 +12,7 @@ import Marquee from "react-fast-marquee";
 
 const Skills = () => {
   return (
-    <div className="border-2 bg-custom-black border-white ">
+    <div className=" bg-custom-black ">
     <Marquee>
       <BiLogoCss3 className="w-20 h-20  p-2 m-2 rounded-full" />
       <AiFillHtml5 className="w-20 h-20 p-2 m-2 rounded-full" />

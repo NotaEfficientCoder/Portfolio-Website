@@ -4,10 +4,14 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div className="text-white bg-custom-black flex flex-col border-2 border-white justify-between">
+    <div className="text-white bg-custom-black flex flex-col  justify-between">
       <div className=" m-2 rounded-lg chat chat-end ">
         <p className="m-5 mb-20 text-[20px] font-poppins chat-bubble">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam est eos molestiae nobis, facere ex aut animi rem ad voluptatibus magnam suscipit veniam deleniti dignissimos fugit beatae perferendis rerum doloribus dolores delectus, sed impedit, nulla commodi? Quis et natus quos ipsam illo enim earum recusandae nulla. Sapiente facere asperiores ipsa incidunt officia illo.
+        Welcome to my world! I'm Bhavya Shah, a forward-thinking Mechatronics student driven by curiosity and a love for innovation. 
+
+As a natural leader & team player, I thrive in collaborative environments, fostering creativity and problem-solving. My dedication to continuous learning & adaptability keeps me at the forefront of emerging technologies.
+
+Join me as I embark on an exciting journey, where curiosity meets capability, and together, we'll shape the future. Below, you'll find a dynamic showcase of my core skills and expertise!
         </p>
         
         <div className="w-48 h-48 mt-16">

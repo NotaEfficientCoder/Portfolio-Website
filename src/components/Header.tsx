@@ -1,21 +1,21 @@
 import Image from "next/image";
 import React from "react";
 import Linkedin from "public/images/linkedin.png";
-import {AiFillGithub} from "react-icons/ai"
-import {AiFillLinkedin} from "react-icons/ai"
+import {BsGithub} from "react-icons/bs";
+import {BsLinkedin} from "react-icons/bs"
 
 const Header = () => {
   return (
     <div className="w-full">
       <header className="w-full p-2 h-[90px] flex flex-row items-center justify-between bg-custom-dark-red">
-        <h1 className="font-greatvibe ml-9 text-5xl font-semibold">
-          Bhavya  Shah
+        <h1 className="font-greatvibe text-custom-black ml-9 text-5xl font-semibold">
+          Bhavya Shah
         </h1>
         <div className="w-1/2 mr-3 h-full flex  items-center justify-end gap-6 ">
           <a
             href="/Bhavya_Shah_Resume.pdf"
             target="_blank"
-            className="font-sans border-2 border-white text-white p-2 mt-2 hover:bg-black hover:text-white rounded-md"
+            className="font-poppins font-bold border-2 bg-white border-custom-black text-custom-black p-[11px] mt-2 hover:bg-black hover:text-white rounded-md"
           >
             Resume
           </a>
@@ -23,16 +23,16 @@ const Header = () => {
             href="https://www.linkedin.com/in/shahbhavyakumar/"
             target="_blank"
           >
-            <AiFillLinkedin className="h-full rounded-lg w-12 mt-3" alt="Linkedin"/>
-            {/* <Image
-              className="h-full w-12 bg-white rounded-lg mt-3"
-              src={Linkedin}
+            <BsLinkedin
+              className="h-full border-2 rounded-md bg-custom-black border-custom-black w-12 mt-3"
               alt="Linkedin"
-            ></Image> */}
+            />
           </a>
           <a href="https://github.com/bh4vya" target="_blank">
-            {/* <Image className="h-full bg-white rounded-lg w-12 mt-3" alt="Github"></Image> */}
-            <AiFillGithub className="h-full rounded-lg w-12 mt-3" alt="Github"/>
+            <BsGithub
+              className="h-full w-12 bg-custom-black border-2 border-custom-black rounded-full mt-3"
+              alt="Github"
+            />
           </a>
         </div>
       </header>
