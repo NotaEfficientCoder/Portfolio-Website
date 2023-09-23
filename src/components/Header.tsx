@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import Linkedin from "public/images/linkedin.png";
 import {BsGithub} from "react-icons/bs";
 import {BsLinkedin} from "react-icons/bs"
 

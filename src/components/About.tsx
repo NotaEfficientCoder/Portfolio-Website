@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Bhavya from "public/images/bhavya.png"
 
 const About = () => {
   return (
@@ -22,7 +23,7 @@ const About = () => {
             className="rounded-full relative object-cover"
             width={150}
             height={150}
-            src="/bhavya.png"
+            src={Bhavya}
             alt="bhavya"
           ></Image>
         </div>
