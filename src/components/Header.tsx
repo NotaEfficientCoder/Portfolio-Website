@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import {BsGithub} from "react-icons/bs";
-import {BsLinkedin} from "react-icons/bs"
+import { BiLogoGithub } from "react-icons/bi";
+import { BsLinkedin } from "react-icons/bs";
 
 const Header = () => {
   return (
@@ -14,7 +14,7 @@ const Header = () => {
           <a
             href="/Bhavya_Shah_Resume.pdf"
             target="_blank"
-            className="font-poppins font-bold border-2 bg-white border-custom-black text-custom-black p-[11px] mt-2 hover:bg-black hover:text-white rounded-md"
+            className="font-poppins font-extrabold border-[4px] bg-white border-custom-black text-custom-black p-[10px] pb-[10.5px] mt-[10px] hover:bg-custom-black hover:border-white hover:text-white rounded-md"
           >
             Resume
           </a>
@@ -23,13 +23,13 @@ const Header = () => {
             target="_blank"
           >
             <BsLinkedin
-              className="h-full border-2 rounded-md bg-custom-black border-custom-black w-12 mt-3"
+              className="h-full w-12  bg-custom-black  border-[4px] border-custom-black mt-3  hover:bg-white hover:border-white hover:text-black rounded-lg"
               alt="Linkedin"
             />
           </a>
           <a href="https://github.com/bh4vya" target="_blank">
-            <BsGithub
-              className="h-full w-12 bg-custom-black border-2 border-custom-black rounded-full mt-3"
+            <BiLogoGithub
+              className="h-full w-12 bg-custom-black   mt-3  hover:bg-white hover:text-black rounded-full"
               alt="Github"
             />
           </a>
