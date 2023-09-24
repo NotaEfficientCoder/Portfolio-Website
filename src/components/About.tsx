@@ -14,8 +14,7 @@ const About = () => {
           to continuous learning &amp; adaptability keeps me at the forefront of
           emerging technologies. Join me as I embark on an exciting journey,
           where curiosity meets capability, and together, we&apos;ll shape the
-          future. Below, you&apos;ll find a dynamic showcase of my core skills
-          and expertise!
+          future. Below, you&apos;ll find a dynamic showcase of my core skills!
         </p>
 
         <div className="w-48 h-48 mt-16">
