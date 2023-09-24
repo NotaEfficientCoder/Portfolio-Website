@@ -28,8 +28,8 @@ const Skills = () => {
         <BiLogoCss3 className="w-20 h-20  p-2 m-2 rounded-full" />
         <AiFillHtml5 className="w-20 h-20 p-2 m-2 rounded-full" />
         <BiLogoJavascript className="w-20 h-20 rounded-full p-2 m-2 " />
-        <BiLogoReact className="w-[75px] h-[75px] p-2 m-2 rounded-xl" />
-        <SiNextdotjs className="w-[75px] h-[75px] p-2 m-2 rounded-xl" />
+        <BiLogoReact className="w-20 h-20 p-2 m-2 rounded-full" />
+        <SiNextdotjs className="w-20 h-20 p-2 m-2 rounded-full" />
         <BiLogoTailwindCss className="w-20 h-20 p-2 m-2 rounded-full" />
         <BiLogoTypescript className="w-20 h-20 rounded-full p-2 m-2" />
         <FaNode className="w-20 h-20 rounded-full p-2 m-2" />
@@ -38,13 +38,13 @@ const Skills = () => {
         <BiLogoPython className="w-20 h-20 rounded-full p-2 m-2" />
         <BiLogoJava className="w-20 h-20 rounded-full p-2 m-2" />
         <BiLogoCPlusPlus className="w-20 h-20 rounded-full p-2 m-2" />
-        <SiCsharp className="w-[66px] h-[66px] rounded-full p-2 m-2"/>
+        <SiCsharp className="w-20 h-20 rounded-full p-2 m-2"/>
         <FaBootstrap className="w-20 h-20 rounded-full p-2 m-2" />
         <BiLogoMongodb className="w-20 h-20 rounded-full p-2 m-2" />
         <BiLogoSass className="w-20 h-20 rounded-full p-2 m-2" />
         <FiFigma className="w-20 h-20 rounded-full p-2 m-2" />
-        <BsGit className="w-[66px] h-[66px] rounded-full p-2 m-2" />
-        <BiLogoShopify className="w-20 h-20 rounded-full p-2 pl-3 m-2"/>
+        <BsGit className="w-20 h-20 rounded-full p-2 m-2" />
+        <BiLogoShopify className="w-20 h-20 rounded-full p-2 m-2"/>
         
       </Marquee>
     </div>
